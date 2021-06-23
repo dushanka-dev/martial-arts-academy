@@ -51,5 +51,28 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
     * Logo with link to homepage so users can easily come back to sites home page.
     * Brief contact information of the Academy.
 
+# Testing
+
+General testing will be added here.
+
+* Validator Testing
+
+    * HTML
+    * CSS
+
+# Depolyment
+
+Deployment method will be added here.
+
+# Credits
+
+Credits will be added here.
+
+# Content
+
+# Media
+
+
+
 
 

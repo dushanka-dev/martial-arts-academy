@@ -38,3 +38,18 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
     * Each class box has Instructors names so users can see what instructors in the Academy.
     * More information button directs users to Classes page where they can see full list of available classes.
 
+* Testimonial Section
+
+    * To show users existing customers reviews of MA Academy.
+    * Encourage new users to Sign Up by showing them how happy existing customers are with the Academy.
+    * Give users unbiased opinions of the Academy so they can make their mind up about joining.
+
+* Footer 
+
+    * Show users all the links to all pages available on the site.
+    * Links to Social media accounts from MA Academy.
+    * Logo with link to homepage so users can easily come back to sites home page.
+    * Brief contact information of the Academy.
+
+
+

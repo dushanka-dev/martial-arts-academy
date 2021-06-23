@@ -23,4 +23,18 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
 
     * This section is aimed at motivation people to take up Martial Arts.
     * It showcases brief benefits of what users can gain if they start Martial Arts.
-    * 
+    * Call to Action button to encourage users to Sign Up.
+
+* Benefits Section Image
+
+    * Image is there to motivate users and encourage them to take action.
+    * The image is showing an indvidual exercising to show users what they can be gaining by joining the Academy.
+
+* Popular Classes
+
+    * This section shows users MA Academy's most popular classes.
+    * It is aimed at getting users to see what the existing members of the Academy like.
+    * Call to Action buttons are there to entice users to sign up or contact the Academy for more information.
+    * Each class box has Instructors names so users can see what instructors in the Academy.
+    * More information button directs users to Classes page where they can see full list of available classes.
+

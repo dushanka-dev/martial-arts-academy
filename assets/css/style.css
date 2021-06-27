@@ -43,5 +43,17 @@ body {
     color: #011638;
 }
 
+#nav-menu a:hover {
+    color: #e73939;
+    transition: .4s;
+}
+
+.active {
+    border-bottom: 1px solid #e73939;
+    padding: 2px;
+}
+
+/* --------- Hero Image Section --------- */
+
 
 

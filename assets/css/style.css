@@ -12,9 +12,36 @@ body {
     color: #000;
 }
 
+/* --------- Header --------- */
+
+#logo, #nav-menu {
+    line-height: 50px;
+}
+
 #logo {
     font-size: 250%;
     margin-left: 20px;
     float: left;
     color: #e73939;
 }
+
+#nav-menu {
+    font-size: 100%;
+    font-weight: 700;
+    float: right;
+}
+
+#nav-menu li {
+    float: left;
+    letter-spacing: 3px;
+    margin-right: 25px;
+    list-style-type: none;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: #011638;
+}
+
+
+

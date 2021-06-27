@@ -11,3 +11,10 @@ body {
     font-weight: 400;
     color: #000;
 }
+
+#logo {
+    font-size: 250%;
+    margin-left: 20px;
+    float: left;
+    color: #e73939;
+}

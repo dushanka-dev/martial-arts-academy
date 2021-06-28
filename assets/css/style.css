@@ -85,7 +85,11 @@ body {
     display: block;
 }
 
-/* Benefits Section */
+/* --------- Benefits Section --------- */
+
+.features {
+    margin: 50px 25px;
+}
 
 .title {
     text-transform: uppercase;
@@ -114,5 +118,31 @@ body {
     padding-bottom: 20px;
 }
 
+/* --------- Media Queries --------- */
 
+@media screen and (max-width: 768px) {
+    .features {
+        margin: 20px 5px;
+    }
 
+    .benefits-content {
+        width: 100%;
+        /* float: right; */
+        /* box-sizing: border-box; */
+        padding: 0 30px 0 30px;
+        background-color: #c7c7c7;
+    }
+
+    .benefits-image {
+        width: 100%;
+        /* float: right; */
+        box-sizing: border-box;
+        padding: 0 30px 0 30px;
+        background-color: #c7c7c7;
+    }
+
+    .benefits-image img {
+        width: 100%;
+}
+
+}

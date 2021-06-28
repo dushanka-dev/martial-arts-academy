@@ -40,7 +40,7 @@ body {
 
 #nav-menu a {
     text-decoration: none;
-    color: #011638;
+    color: #fff;
 }
 
 #nav-menu a:hover {
@@ -60,7 +60,6 @@ body {
     background-size: cover;
     height: 100vh;
     width: 100%;
-    overflow: hidden;
 }
 
 /* #hero-text {
@@ -86,4 +85,34 @@ body {
 }
 
 /* Benefits Section */
+
+.title {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0 25px;
+}
+
+.benefits-image {
+    width: 45%;
+    float: left;
+}
+
+.benefits-image img {
+    width: 100%;
+    height: auto;
+}
+.benefits-content {
+    width: 55%;
+    float: right;
+    padding-left: 80px;
+    box-sizing: border-box;
+    background-color: #c7c7c7;
+}
+
+.benefits-content h3, .benefits-content p {
+    padding-bottom: 20px;
+}
+
+
 

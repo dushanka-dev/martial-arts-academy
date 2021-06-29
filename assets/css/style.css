@@ -90,6 +90,22 @@ body {
 
 /* --------- Benefits Section --------- */
 
+.benefits-section {
+    text-align: center;
+}
+
+.image-section {
+    background-color: #e73939;
+    display: inline-block;
+    width: 50%;
+}
+
+.content-section {
+    background-color: aqua;
+    float: right;
+    width: 40%;
+    text-align: left;
+}
 
 /* --------- Buttons --------- */
 
@@ -108,6 +124,7 @@ body {
 
 .popular-classes {
     text-align: center;
+    display: inline-block;
 }
 
 .popular-classes div {

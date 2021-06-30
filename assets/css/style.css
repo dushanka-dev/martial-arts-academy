@@ -13,6 +13,16 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.title {
+    background-color: #e73939;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    padding: 5px 10px;
+}
+
 /* --------- Header --------- */
 
 #logo, #nav-menu {

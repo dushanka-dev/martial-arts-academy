@@ -57,9 +57,7 @@ body {
 /* --------- Hero Image Section --------- */
 
 #hero-image {
-    background: url(/assets/images/boxing-image.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url(/assets/images/boxing-image.jpg) center center/cover no-repeat;
     background-color: #011638;
     background-blend-mode:overlay;
     height: 100vh;
@@ -98,7 +96,9 @@ body {
 .image-section {
     background-color: #e73939;
     float: left;
-    width: 50%;
+    width: 40%;
+    height: 200px;
+    background: url(/assets/images/benefits-unsplash.jpg) center center/cover no-repeat;
 }
 
 .content-section {

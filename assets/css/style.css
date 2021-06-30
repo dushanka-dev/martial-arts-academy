@@ -9,7 +9,20 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    color: #000;
+    background-color: #011638;
+    color: rgb(255, 255, 255);
+}
+
+/* ---------  Title and Sub Heading ---------  */
+
+.title {
+    background-color: #e73939;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    padding: 5px 10px;
 }
 
 /* --------- Header --------- */
@@ -56,11 +69,12 @@ body {
 /* --------- Hero Image Section --------- */
 
 #hero-image {
-    background: url(/assets/images/boxing-image.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+    background: url(/assets/images/boxing-image.jpg) center center/cover no-repeat;
+    background-color: #011638;
+    background-blend-mode:overlay;
+    min-height: 95vh;
     width: 100%;
+    border-radius: 0 0 20% 0;
 }
 
 /* #hero-text {
@@ -87,45 +101,39 @@ body {
 
 /* --------- Benefits Section --------- */
 
-.features {
-    margin: 50px 25px;
+.benefits-section {
+    text-align: center;
+    overflow: auto;
+    margin: 80px 60px;
 }
 
-.title {
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 25px;
-}
-
-.benefits-image {
+.image-section {
+    background: url(/assets/images/benefits-unsplash.jpg) center center/cover no-repeat;
+    background-color: #e73939;
     width: 45%;
+    height: 400px;
     float: left;
 }
 
-.benefits-image img {
-    width: 80%;
-    height: auto;
-    padding-left: 50px;
-}
-.benefits-content {
-    width: 55%;
-    float: right;
-    padding: 0 80px 0 80px;
-    box-sizing: border-box;
+.content-section {
+    float: left;
+    width: 40%;
+    text-align: left;
+    margin-left: 120px;
 }
 
-.benefits-content h3, .benefits-content p {
-    padding-bottom: 20px;
+.content-section h4, .content-section li {
+    margin: 30px 0;
+    letter-spacing: 1.5px;
 }
 
-.benefits-points li {
+.content-section li {
     list-style-type: none;
-    padding: 5px 0;
 }
 
-.benefits-points i {
-    color: #108f1b;
-    padding-right: 5px;
+.content-section li i {
+    padding-right: 15px;
+    color: #029121;
 }
 
 /* --------- Buttons --------- */
@@ -139,6 +147,20 @@ body {
     padding: 10px 10px;
     text-decoration: none;
     margin: 20px 10px 10px 0;
+}
+
+/* Popular Classes Section */
+
+.popular-classes {
+    text-align: center;
+    display: inline-block;
+}
+
+.popular-classes div {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 25%;
+    height: 200px;
 }
 
 /* --------- Media Queries --------- */

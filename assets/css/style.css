@@ -151,17 +151,6 @@ body {
 
 /* Popular Classes Section */
 
-.popular-classes {
-    text-align: center;
-    display: inline-block;
-}
-
-.popular-classes div {
-    display: inline-block;
-    box-sizing: border-box;
-    width: 25%;
-    height: 200px;
-}
 
 /* --------- Media Queries --------- */
 

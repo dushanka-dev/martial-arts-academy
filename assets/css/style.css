@@ -178,6 +178,36 @@ body {
     padding: 10px 20px;
 }
 
+/* --------- Footer --------- */
+
+#footer-section {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    /* Gaps between grid column; */
+    column-gap: 40px;
+    padding: 15px;
+    margin: 40px 0;
+    background-color: #813333;
+    /* border-top: 2px solid #e73939; */
+    justify-content: center;
+    border: green;
+}
+
+.footer-box {
+    border: 1px solid #e73939;
+    text-align: center;
+}
+
+#footer-menu li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+#footer-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /* --------- Media Queries --------- */
 
 @media screen and (max-width: 768px) {

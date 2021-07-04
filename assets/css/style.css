@@ -187,15 +187,15 @@ body {
     column-gap: 40px;
     padding: 15px;
     margin-top: 40px;
-    background-color: #813333;
+    border-top: 2px solid #e73939;
     /* border-top: 2px solid #e73939; */
     justify-content: center;
-    border: green;
+
 }
 
-.footer-box {
-    border: 1px solid #e73939;
-    text-align: center;
+
+#footer-section h3 {
+    margin-bottom: 20px;
 }
 
 #footer-menu li {
@@ -208,8 +208,16 @@ body {
     color: #fff;
 }
 
-footer h6 {
+.footer-box, .footer-social, .copyright {
     text-align: center;
+}
+
+.footer-social li {
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.copyright {
     padding: 10px 0;
 }
 

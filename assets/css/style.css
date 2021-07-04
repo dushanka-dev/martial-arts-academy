@@ -166,8 +166,16 @@ body {
     text-align: center;
 }
 
+.popular-box h3, .popular-box h4, .popular-box p {
+    margin: 10px 0;
+}
+
 .popular-box img {
     width: 100%;
+}
+
+.popular-box p {
+    padding: 10px 20px;
 }
 
 /* --------- Media Queries --------- */

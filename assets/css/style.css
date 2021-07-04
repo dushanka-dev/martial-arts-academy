@@ -186,7 +186,7 @@ body {
     /* Gaps between grid column; */
     column-gap: 40px;
     padding: 15px;
-    margin: 40px 0;
+    margin-top: 40px;
     background-color: #813333;
     /* border-top: 2px solid #e73939; */
     justify-content: center;
@@ -206,6 +206,11 @@ body {
 #footer-menu a {
     text-decoration: none;
     color: #fff;
+}
+
+footer h6 {
+    text-align: center;
+    padding: 10px 0;
 }
 
 /* --------- Media Queries --------- */

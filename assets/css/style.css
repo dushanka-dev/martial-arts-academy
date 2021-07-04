@@ -208,7 +208,7 @@ body {
     color: #fff;
 }
 
-.footer-box, .footer-social, .copyright {
+.footer-box, .footer-social, .footer-contact, .copyright {
     text-align: center;
 }
 
@@ -217,6 +217,14 @@ body {
     padding: 5px 15px;
 }
 
+.footer-contact p {
+    margin-bottom: 25px;
+}
+
+.footer-contact i {
+    color: #e73939;
+    padding-right: 10px;
+}
 .copyright {
     padding: 10px 0;
 }

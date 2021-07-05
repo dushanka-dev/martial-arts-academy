@@ -178,11 +178,38 @@ body {
     padding: 10px 20px;
 }
 
+/* History Section */
+
+.history-section {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    /* Gaps between grid column; */
+    column-gap: 80px;
+    padding: 15px;
+    margin: 80px 40px;
+    justify-content: center;
+}
+
+.history-image {
+    background: url(/assets/images/history-gym.jpg) center center/cover no-repeat;
+    background-color: #011638;
+    width: 100%;
+    height: 300px;
+}
+
+.history-content {
+    text-align: left;
+}
+
+.history-content h3, h4, p {
+    margin: 15px 0;
+}
+
 /* --------- Footer --------- */
 
 #footer-section {
     display: grid;
-    grid-template-columns: 20% 20% 20%;
+    grid-template-columns: 25% 25% 25%;
     /* Gaps between grid column; */
     column-gap: 40px;
     padding: 15px;

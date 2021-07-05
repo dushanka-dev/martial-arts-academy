@@ -151,13 +151,26 @@ body {
 
 /* Popular Classes Section */
 
+#popular-section {
+    margin: 100px 0;
+}
+
+.popular-title {
+    color: #e73939;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    padding: 5px 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
 .popular-classes {
     display: grid;
     grid-template-columns: 20% 20% 20%;
     /* Gaps between grid column; */
     column-gap: 40px;
     padding: 15px;
-    margin: 100px 0;
     /* Center Grid */
     justify-content: center;
 }

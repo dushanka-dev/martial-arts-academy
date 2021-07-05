@@ -107,7 +107,7 @@ body {
     /* Gaps between grid column; */
     column-gap: 80px;
     padding: 15px;
-    margin: 80px 40px;
+    margin: 100px 40px;
     justify-content: center;
 }
 
@@ -157,6 +157,7 @@ body {
     /* Gaps between grid column; */
     column-gap: 40px;
     padding: 15px;
+    margin: 100px 0;
     /* Center Grid */
     justify-content: center;
 }
@@ -186,7 +187,7 @@ body {
     /* Gaps between grid column; */
     column-gap: 80px;
     padding: 15px;
-    margin: 80px 40px;
+    margin: 100px 40px;
     justify-content: center;
 }
 

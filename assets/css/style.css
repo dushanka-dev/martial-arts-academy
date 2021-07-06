@@ -317,32 +317,39 @@ body {
 
 /* --------- Media Queries --------- */
 
-@media screen and (max-width: 768px) {
-    .features {
-        margin: 20px 5px;
+@media screen and (max-width: 480px) {
+
+    .benefits-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr .5fr;
+        margin: 50px 10px 50px 120px;
     }
 
-    .benefits-content {
+    .image-section {
+        background: url(/assets/images/benefits-unsplash.jpg) center center/cover no-repeat;
+        background-color: #011638;
         width: 100%;
-        /* float: right; */
-        /* box-sizing: border-box; */
-        padding: 0 30px 0 30px;
-        background-color: #c7c7c7;
+        height: 250px;
+    }
+    
+    .content-section {
+        margin-top: 60px;
         text-align: center;
     }
-
-    .benefits-image {
-        width: 100%;
-        /* float: right; */
-        box-sizing: border-box;
-        padding: 0 30px 0 30px;
-        background-color: #c7c7c7;
+    
+    .content-section h4, .content-section li {
+        margin: 20px 0;
+        letter-spacing: 1.5px;
     }
-
-    .benefits-image img {
-        width: 100%;
-        height: auto;
-        padding-left: 0;
-}
+    
+    .content-section li {
+        list-style-type: none;
+    }
+    
+    .content-section li i {
+        padding-right: 10px;
+        color: #029121;
+    }
 
 }

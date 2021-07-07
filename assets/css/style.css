@@ -99,6 +99,26 @@ body {
     display: block;
 }
 
+/* --------- Sub Page Header --------- */
+
+#subpage-header {
+    background-color: #063074;
+    min-height: 40vh;
+    width: 100%;
+    border-radius: 0 0 20% 0;
+}
+
+#subheader-text {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: block;
+}
+
 /* --------- Benefits Section --------- */
 
 .benefits-section {

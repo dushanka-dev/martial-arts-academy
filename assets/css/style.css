@@ -169,7 +169,7 @@ body {
     margin-top: 10px;
 }
 
-/* Popular Classes Section */
+/* --------- Popular Classes Section --------- */
 
 #popular-section {
     margin: 100px 0;
@@ -281,6 +281,27 @@ body {
 
 .instructor-box p {
     padding: 10px 20px;
+}
+
+/* --------- Classes Section --------- */
+
+.classes-section {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 45px;
+    padding: 15px;
+    margin: 100px 0;
+    justify-content: center;
+}
+
+.classes-box {
+    border: 2px solid #e73939;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.classes-box img {
+    width: 100%;
 }
 
 

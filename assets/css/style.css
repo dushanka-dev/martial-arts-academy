@@ -325,6 +325,16 @@ body {
     letter-spacing: 1.2px;
 }
 
+.timetable {
+    width: 100%;
+    text-align: center;
+}
+
+.timetable tr:nth-child(even) {
+    /* Bg color even intervals */
+    background-color: #ec4c4c;
+}
+
 
 /* --------- Footer --------- */
 

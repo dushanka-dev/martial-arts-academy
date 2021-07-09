@@ -325,33 +325,6 @@ body {
     letter-spacing: 1.2px;
 }
 
-.timetable {
-    width: 100%;
-    padding: 20px 40px;
-    margin: 100px 0;
-    border-spacing: 15px;
-    text-align: center;
-}
-
-/* Bg color even intervals */
-.timetable tr:nth-child(even) {
-    background-color: #ec4c4c;
-}
-
-.timetable th {
-    font-size: 18px;
-    font-weight: 800;
-    letter-spacing: 1.4px;
-    margin: 10px 0;
-}
-
-.timetable h5 {
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 1.2px;
-    margin: 10px 0;
-}
-
 /* --------- Footer --------- */
 
 #footer-section {
@@ -464,7 +437,7 @@ body {
     
 }
 
-@media screen and (max-width: 468px) { 
+@media screen and (max-width: 500px) { 
 
     .benefits-section {
         display: grid;

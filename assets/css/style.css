@@ -434,6 +434,17 @@ body {
     .popular-box p {
         padding: 10px 20px;
     }
+
+    .classes-section {
+        display: grid;
+        grid-template-columns: 40% 40%;
+    }
+    
+    .classes-box {
+        padding-bottom: 10px;
+        margin: 10px 20px;
+        text-align: center;
+    }
     
 }
 
@@ -454,6 +465,17 @@ body {
     
     .content-section {
         margin-top: 60px;
+        text-align: center;
+    }
+
+    .classes-section {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+    .classes-box {
+        padding-bottom: 20px;
+        margin: 20px 40px;
         text-align: center;
     }
 

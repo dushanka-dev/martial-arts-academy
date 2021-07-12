@@ -299,6 +299,8 @@ body {
 }
 
 .classes-box {
+    background-color: #011638;
+    color: #fff;
     border: 2px solid #e73939;
     margin: 40px 0;
     text-align: center;

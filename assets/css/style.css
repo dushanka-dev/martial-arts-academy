@@ -79,12 +79,21 @@ body {
 
 #hero-text {
     color: #fff;
+    box-shadow: 5px 5px 2px 0px #e73939;
     /* width: 70%; */
     position: absolute;
-    top: 50%;
-    left: 20%;
-    background-color: rgba(255,69,0,.8);
+    top: 55%;
+    left: 30%;
+    opacity: .8;
+    padding: 40px;
+    border-radius: 5px;
     display: block;
+}
+
+#hero-text h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    letter-spacing: 1.2px;
 }
 
 /* --------- Sub Page Header --------- */
@@ -431,6 +440,14 @@ body {
 }
 
 /* --------- Buttons --------- */
+
+.header-btn {
+    background-color: #e73939;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+}
 
 .signup-btn {
     background-color: #e73939;

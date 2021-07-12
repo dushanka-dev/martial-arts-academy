@@ -9,8 +9,8 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    background-color: #011638;
-    color: rgb(255, 255, 255);
+    background-color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 /* ---------  Title and Sub Heading ---------  */
@@ -172,11 +172,13 @@ body {
 /* --------- Popular Classes Section --------- */
 
 #popular-section {
+    background-color: #011638;
+    color: #fff;
     margin: 100px 0;
 }
 
 .popular-title {
-    color: #e73939;
+    color: rgb(223, 219, 219);
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 1.8px;
@@ -242,11 +244,13 @@ body {
 /* --------- Instructors Section --------- */
 
 #instructors {
+    background-color: #011638;
+    color: #fff;
     margin: 100px 0;
 }
 
 .instructors-title {
-    color: #e73939;
+    color: #fff;
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 1.8px;
@@ -295,6 +299,8 @@ body {
 }
 
 .classes-box {
+    background-color: #011638;
+    color: #fff;
     border: 2px solid #e73939;
     margin: 40px 0;
     text-align: center;
@@ -359,6 +365,7 @@ body {
 }
 
 .contact-form input[type=text], input[type=email] {
+    background-color: #c4c3c3;
     padding: 5px;
 }
 
@@ -403,6 +410,38 @@ body {
     height: 100%;
 }
 
+/* --------- Sign Up --------- */
+
+.signup {
+    margin: 100px 0;
+}
+
+.signup h2 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.signup-form label, input[type=email], input[type=password] {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.signup-form input[type=email], input[type=password] {
+    background-color: #c4c3c3;
+}
+
+.signup-form input[type=submit] {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    padding: 5px;
+}
 /* --------- Footer --------- */
 
 #footer-section {
@@ -412,6 +451,8 @@ body {
     column-gap: 40px;
     padding: 15px;
     margin-top: 40px;
+    background-color: #011638;
+    color: #fff;
     border-top: 2px solid #e73939;
     /* border-top: 2px solid #e73939; */
     justify-content: center;
@@ -451,6 +492,8 @@ body {
     padding-right: 10px;
 }
 .copyright {
+    background-color: #011638;
+    color: #fff;
     padding: 10px 0;
 }
 

@@ -189,6 +189,7 @@ body {
 }
 
 .popular-box {
+    padding-bottom: 40px;
     border: 1px solid #e73939;
     text-align: center;
 }
@@ -203,6 +204,7 @@ body {
 
 .popular-box p {
     padding: 10px 20px;
+    margin-bottom: 30px;
 }
 
 /* --------- History Section --------- */
@@ -442,19 +444,20 @@ body {
     border-radius: 5px;
 }
 
-.signup-btn:hover {
-    background-color: #fff;
-    color: #e73939;
-    transition: .10s;
-}
-
-.primary-btn {
+.main-btn {
     background-color: #e73939;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
 }
+
+.signup-btn:hover, .main-btn:hover {
+    background-color: #fff;
+    color: #e73939;
+    transition: .10s;
+}
+
 /* --------- Footer --------- */
 
 #footer-section {

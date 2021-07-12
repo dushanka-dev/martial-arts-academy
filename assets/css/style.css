@@ -9,8 +9,8 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    background-color: #011638;
-    color: rgb(255, 255, 255);
+    background-color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 /* ---------  Title and Sub Heading ---------  */
@@ -172,11 +172,14 @@ body {
 /* --------- Popular Classes Section --------- */
 
 #popular-section {
+    background-color: #011638;
+    color: #fff;
+    padding: 40px 0;
     margin: 100px 0;
 }
 
 .popular-title {
-    color: #e73939;
+    color: #fff;
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 1.8px;
@@ -197,6 +200,7 @@ body {
 
 .popular-box {
     border: 1px solid #e73939;
+    padding-bottom: 40px;
     text-align: center;
 }
 

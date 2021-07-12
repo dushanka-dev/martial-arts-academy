@@ -409,14 +409,25 @@ body {
     margin: 100px 0;
 }
 
+.signup-form {
+    width: 50%;
+    margin: auto;
+    background-color: #e73939;
+    opacity: .8;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
 .signup h2 {
+    color: #fff;
     margin: 20px 0;
+    padding-top: 20px;
     text-align: center;
 }
 
 .signup-form label, input[type=email], input[type=password] {
     display: block;
-    width: 30%;
+    width: 50%;
     padding: 10px;
     margin: 0 auto;
     border-radius: 5px;
@@ -424,16 +435,7 @@ body {
 
 .signup-form input[type=email], input[type=password] {
     background-color: #c4c3c3;
-}
-
-.signup-form input[type=submit] {
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    border-radius: 5px;
-    width: 80px;
-    height: 35px;
-    padding: 5px;
+    
 }
 
 /* --------- Buttons --------- */
@@ -456,6 +458,28 @@ body {
     background-color: #fff;
     color: #e73939;
     transition: .10s;
+}
+
+.signup-form input[type=submit] {
+    background-color: #011638;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    letter-spacing: 1.2px;
+    display: block;
+}
+
+.signup-form input[type=submit]:hover {
+    background-color: #fff;
+    color: #011638;
+    border: 1px solid #011638;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+    letter-spacing: 1.2px;
+    display: block;
 }
 
 /* --------- Footer --------- */

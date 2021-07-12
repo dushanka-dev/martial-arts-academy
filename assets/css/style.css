@@ -77,18 +77,6 @@ body {
     border-radius: 0 0 20% 0;
 }
 
-/* #hero-text {
-    height: 80px;
-    width: 350px;
-    background-color: rgba(255,69,0,.6);
-    color: #fff;
-    font-family: Open-sans, sans-serif;
-    padding: 30px 10px;
-    position: absolute;
-    bottom: 150px;
-    right: 150px;
-} */
-
 #hero-text {
     color: #fff;
     /* width: 70%; */

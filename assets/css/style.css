@@ -188,7 +188,8 @@ body {
 
 .popular-box {
     padding-bottom: 40px;
-    box-shadow: 0 2px 5px 5px #e73939;
+    border: 1px solid #e73939;
+    box-shadow: 2px 5px 2px #e73939;
     text-align: center;
 }
 
@@ -262,7 +263,8 @@ body {
 }
 
 .instructor-box {
-    box-shadow: 0 2px 5px 5px #e73939;
+    border: 1px solid #e73939;
+    box-shadow: 2px 5px 2px #e73939;
     text-align: center;
 }
 

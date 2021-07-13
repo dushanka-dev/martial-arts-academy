@@ -100,7 +100,7 @@ body {
 
 #subpage-header {
     background-color: #063074;
-    min-height: 40vh;
+    min-height: 30vh;
     width: 100%;
     border-radius: 0 0 20% 0;
 }
@@ -408,37 +408,45 @@ body {
 
 /* --------- Sign Up --------- */
 
+#signup-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    min-height: 40vh;
+}
+
+.signup-image {
+    background: url(/assets/images/history-gym.jpg) center center/cover no-repeat;
+    background-color: #011638;
+    width: 100%;
+}
+
 .signup {
-    margin: 100px 0;
+    max-width: 100%;
+    margin-left: 40px;
+}
+
+.login-section {
+    margin-top: 20px;
 }
 
 .signup-form {
-    width: 50%;
-    margin: auto;
-    background-color: #e73939;
-    opacity: .8;
-    padding-bottom: 40px;
-    border-radius: 10px;
-}
-
-.signup h2 {
+    width: 70%;
+    background-color: #011638;
     color: #fff;
-    margin: 20px 0;
-    padding-top: 20px;
-    text-align: center;
+    opacity: .8;
+    padding: 30px 20px 30px 10px;
+    border-radius: 10px;
+    margin: 40px 0;
 }
 
-.signup-form label, input[type=email], input[type=password] {
+.signup-form input[type=text], .signup-form input[type=email], .signup-form input[type=password] {
     display: block;
-    width: 50%;
-    padding: 10px;
-    margin: 0 auto;
+    width: 90%;
+    background-color: #e6e6e6;
+    padding: 15px;
     border-radius: 5px;
-}
+    margin: 12px 0;
 
-.signup-form input[type=email], input[type=password] {
-    background-color: #c4c3c3;
-    
 }
 
 /* --------- Buttons --------- */
@@ -453,8 +461,20 @@ body {
 
 .signup-btn {
     background-color: #e73939;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    width: 40%;
+    height: 40px;
     padding: 8px;
     border-radius: 5px;
+    margin-top: 20px;
+    position: relative;
+    top: 0;
+    left: 30%;
+    
 }
 
 .main-btn {
@@ -532,6 +552,10 @@ body {
 .footer-social li {
     display: inline-block;
     padding: 5px 15px;
+}
+
+.footer-social i {
+    color: #e73939;
 }
 
 .footer-contact p {

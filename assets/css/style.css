@@ -9,14 +9,14 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    background-color: #fff;
-    color: rgb(0, 0, 0);
+    background-color: #011638;
+    color: #fff;
 }
 
 /* ---------  Title and Sub Heading ---------  */
 
 .title {
-    background-color: #e73939;
+    background-color: #6475E5;
     color: #fff;
     font-size: 20px;
     font-weight: 700;
@@ -78,8 +78,9 @@ body {
 }
 
 #hero-text {
+    background-color: #011638;
     color: #fff;
-    box-shadow: 5px 5px 2px 0px #e73939;
+    box-shadow: 2px 4px 10px 4px #e73939;
     /* width: 70%; */
     position: absolute;
     top: 55%;
@@ -160,7 +161,6 @@ body {
 /* --------- Popular Classes Section --------- */
 
 #popular-section {
-    background-color: #011638;
     color: #fff;
     padding: 80px 0;
     margin: 100px 0;
@@ -188,8 +188,8 @@ body {
 
 .popular-box {
     padding-bottom: 40px;
-    border: 1px solid #e73939;
-    box-shadow: 2px 5px 2px #e73939;
+    background-color: #6475E5;
+    box-shadow: 1px 2px 6px 2px #6475E5;
     text-align: center;
 }
 
@@ -263,8 +263,8 @@ body {
 }
 
 .instructor-box {
-    border: 1px solid #e73939;
-    box-shadow: 2px 5px 2px #e73939;
+    background-color: #6475E5;
+    box-shadow: 1px 2px 6px 2px #6475E5;
     text-align: center;
 }
 
@@ -293,9 +293,9 @@ body {
 }
 
 .classes-box {
-    background-color: #011638;
+    background-color: #6475E5;
+    box-shadow: 1px 2px 6px 2px #6475E5;
     color: #fff;
-    border: 2px solid #e73939;
     border-radius: 15px;
     margin: 40px 0;
     text-align: center;
@@ -431,7 +431,7 @@ body {
 
 .signup-form {
     width: 70%;
-    background-color: #011638;
+    background-color: #6474e5;
     color: #fff;
     opacity: .8;
     padding: 30px 20px 30px 10px;
@@ -442,7 +442,7 @@ body {
 .signup-form input[type=text], .signup-form input[type=email], .signup-form input[type=password] {
     display: block;
     width: 90%;
-    background-color: #e6e6e6;
+    background-color: #fff;
     padding: 15px;
     border-radius: 5px;
     margin: 12px 0;

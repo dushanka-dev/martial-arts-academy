@@ -28,18 +28,20 @@ body {
 /* --------- Header --------- */
 
 #logo, #nav-menu {
+    margin-top: 15px;
     line-height: 50px;
 }
 
 #logo {
-    font-size: 250%;
+    font-size: 30px;
     margin-left: 20px;
     float: left;
     color: #e73939;
+    letter-spacing: 1.2px;
 }
 
 #nav-menu {
-    font-size: 100%;
+    font-size: 20px;
     font-weight: 700;
     float: right;
 }

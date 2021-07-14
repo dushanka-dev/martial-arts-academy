@@ -69,7 +69,7 @@ body {
 /* --------- Hero Image Section --------- */
 
 #hero-image {
-    background: url(/assets/images/boxing-image.jpg) center center/cover no-repeat;
+    background: url(/assets/images/general-images/boxing-hero.jpg) center center/cover no-repeat;
     background-color: #011638;
     background-blend-mode:overlay;
     min-height: 95vh;
@@ -449,7 +449,40 @@ body {
 
 }
 
+.signup-form input[type=submit] {
+    background-color: #011638;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    letter-spacing: 1.2px;
+    display: block;
+}
+
+.signup-form input[type=submit]:hover {
+    background-color: #fff;
+    color: #011638;
+    border: 1px solid #011638;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+    letter-spacing: 1.2px;
+    display: block;
+}
+
 /* --------- Buttons --------- */
+
+.nav-btn {
+    background-color: #e73939;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
 
 .header-btn {
     background-color: #e73939;
@@ -485,32 +518,10 @@ body {
     text-decoration: none;
 }
 
-.signup-btn:hover, .main-btn:hover {
+.signup-btn:hover, .main-btn:hover, .nav-btn:hover {
     background-color: #fff;
     color: #e73939;
     transition: .10s;
-}
-
-.signup-form input[type=submit] {
-    background-color: #011638;
-    color: #fff;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px;
-    letter-spacing: 1.2px;
-    display: block;
-}
-
-.signup-form input[type=submit]:hover {
-    background-color: #fff;
-    color: #011638;
-    border: 1px solid #011638;
-    margin: 0 auto;
-    border-radius: 5px;
-    padding: 10px;
-    letter-spacing: 1.2px;
-    display: block;
 }
 
 /* --------- Footer --------- */

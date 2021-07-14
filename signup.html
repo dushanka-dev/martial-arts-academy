@@ -21,33 +21,51 @@
                     <a href="classes.html">Classes</a>
                 </li>
                 <li>
-                    <a href="contact.html" class="active">Contact</a>
+                    <a href="contact.html">Contact</a>
                 </li>
                 <li>
-                    <a href="signup.html">Sign Up</a>
+                    <button>
+                        <a href="signup.html" class="nav-btn">Sign Up</a>
+                    </button>
                 </li>
             </ul>
         </nav>
         <section id="subpage-header">
             <div id="subheader-text">
-                <h2>Sign Up</h2>
+                <h2>Contact Us</h2>
             </div>
         </section>
+    </header>
 
+    <section id="signup-container">
+        <div class="signup-image"></div>
+    
         <section class="signup">
-            <h2>Sign Up Today!</h2>
+            <section class="login-section">
+                <h2>Sign Up</h2>
+                    <div class="login-content">
+                        <p>Already have an account?</p>
+                        <a href="#">Log In</a>
+                    </div>
+            </section>
             <div class="signup-form">
                 <form action="POST">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" placeholder="Enter Full Name.." name="signup-fullName" id="fullName">
+
                     <label for="email">Email</label>
                     <input type="email" placeholder="Enter email.." name="signup-email" id="email">
+
                     <label for="password">Password</label>
                     <input type="password" placeholder="Enter password.." name="signup-password" id="password">
-                    <label for="rpassword">Repeat Password</label>
-                    <input type="password" placeholder="Repeat password.." name="signup-rPassword" id="rpassword">
-                    <input type="submit" value="Submit">
+
+                    <button type="submit" class="signup-btn">Sign Up</button>
                 </form>
             </div>
-        </section>
+        </section>    
+
+    </section>
+
 
         <footer>
             <div id="footer-section">

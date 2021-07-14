@@ -11,6 +11,7 @@ body {
     font-weight: 400;
     background-color: #011638;
     color: #fff;
+    letter-spacing: 1.2px;
 }
 
 /* ---------  Title and Sub Heading ---------  */
@@ -142,22 +143,18 @@ body {
     text-align: left;
 }
 
-.content-section h4, .content-section li {
-    margin: 20px 0;
-    letter-spacing: 1.5px;
+.content-section h4 {
+    margin: 25px 0 35px 0;
 }
 
 .content-section li {
+    margin-bottom: 20px;
     list-style-type: none;
 }
 
 .content-section li i {
     padding-right: 10px;
     color: #029121;
-}
-
-.benefits-section a {
-    margin-top: 40px;
 }
 
 /* --------- Popular Classes Section --------- */

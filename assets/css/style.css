@@ -11,6 +11,7 @@ body {
     font-weight: 400;
     background-color: #011638;
     color: #fff;
+    letter-spacing: 1.2px;
 }
 
 /* ---------  Title and Sub Heading ---------  */
@@ -18,28 +19,30 @@ body {
 .title {
     background-color: #6475E5;
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     display: inline-block;
     letter-spacing: 1.5px;
-    padding: 5px 10px;
+    padding: 8px;
 }
 
 /* --------- Header --------- */
 
 #logo, #nav-menu {
+    margin-top: 15px;
     line-height: 50px;
 }
 
 #logo {
-    font-size: 250%;
+    font-size: 30px;
     margin-left: 20px;
     float: left;
     color: #e73939;
+    letter-spacing: 1.2px;
 }
 
 #nav-menu {
-    font-size: 100%;
+    font-size: 20px;
     font-weight: 700;
     float: right;
 }
@@ -140,22 +143,18 @@ body {
     text-align: left;
 }
 
-.content-section h4, .content-section li {
-    margin: 20px 0;
-    letter-spacing: 1.5px;
+.content-section h4 {
+    margin: 25px 0 35px 0;
 }
 
 .content-section li {
+    margin-bottom: 20px;
     list-style-type: none;
 }
 
 .content-section li i {
     padding-right: 10px;
     color: #029121;
-}
-
-.benefits-section a {
-    margin-top: 40px;
 }
 
 /* --------- Popular Classes Section --------- */
@@ -167,12 +166,7 @@ body {
 }
 
 .popular-title {
-    color: rgb(223, 219, 219);
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: 1.8px;
-    padding: 5px 10px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -333,55 +327,33 @@ body {
     margin: 100px 0;
 }
 
-.contact h2 {
-    color: #e73939;
-    font-size: 25px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 50px;
-    
-}
-
 .contact-section {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 50px 0;
 }
 
 .contact-form {
-    width: 100%;
+    width: 70%;
+    background-color: #6474e5;
+    color: #fff;
+    opacity: .8;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 40px 0 40px 60px;
 }
 
-.contact-form label, input[type=text], input[type=email] {
+.contact-form input[type=text], .contact-form input[type=email] {
     display: block;
-    width: 60%;
-    margin: 10px 0 5px 150px;
+    width: 90%;
+    background-color: #fff;
+    padding: 8px;
     border-radius: 5px;
-}
-
-.contact-form input[type=text], input[type=email] {
-    background-color: #c4c3c3;
-    padding: 5px;
-}
-
-.contact-form input[type=email] {
-    margin-bottom: 30px;
-}
-
-.contact-form input[type=submit] {
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    border-radius: 5px;
-    width: 80px;
-    height: 35px;
-    padding: 5px;
+    margin: 12px 0;
 }
 
 .contact-info {
-    margin-left: 150px;
-    padding-top: 20px;
+    margin: 60px 40px;
+    line-height: 55px;
 }
 
 .contact-info h3 {
@@ -492,6 +464,14 @@ body {
     text-decoration: none;
 }
 
+.main-btn {
+    background-color: #e73939;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 .signup-btn {
     background-color: #e73939;
     color: #fff;
@@ -507,15 +487,23 @@ body {
     position: relative;
     top: 0;
     left: 30%;
-    
 }
 
-.main-btn {
+.contact-submit {
     background-color: #e73939;
     color: #fff;
-    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    width: 40%;
+    height: 40px;
+    padding: 8px;
     border-radius: 5px;
-    text-decoration: none;
+    margin-top: 20px;
+    position: relative;
+    top: 0;
+    left: 30%;
 }
 
 .signup-btn:hover, .main-btn:hover, .nav-btn:hover {

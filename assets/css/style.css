@@ -72,7 +72,7 @@ body {
 /* --------- Hero Image Section --------- */
 
 #hero-image {
-    background: url(/assets/images/general-images/boxing-hero.jpg) center center/cover no-repeat;
+    background: url(../images/general-images/boxing-hero.jpg) center center/cover no-repeat;
     background-color: #011638;
     background-blend-mode:overlay;
     min-height: 95vh;
@@ -111,13 +111,13 @@ body {
 
 #subheader-text {
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 800;
+    letter-spacing: 1.4px;
     position: absolute;
-    top: 20%;
+    top: 18%;
     left: 50%;
     transform: translate(-50%, 0);
-    display: block;
 }
 
 /* --------- Benefits Section --------- */
@@ -127,13 +127,13 @@ body {
     grid-template-columns: 40% 40%;
     /* Gaps between grid column; */
     column-gap: 80px;
-    padding: 15px;
-    margin: 100px 40px;
+    padding: 40px 15px;
+    margin: 80px 20px;
     justify-content: center;
 }
 
 .image-section {
-    background: url(/assets/images/benefits-unsplash.jpg) center center/cover no-repeat;
+    background: url(../images/general-images/benefits-unsplash.jpg) center center/cover no-repeat;
     background-color: #011638;
     width: 100%;
     height: 350px;
@@ -157,12 +157,39 @@ body {
     color: #029121;
 }
 
+/* --------- History Section --------- */
+
+.history-section {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    /* Gaps between grid column; */
+    column-gap: 80px;
+    padding: 40px 0;
+    margin: 80px 20px;
+    justify-content: center;
+}
+
+.history-image {
+    background: url(../images/general-images/history-gym.jpg) center center/cover no-repeat;
+    background-color: #011638;
+    width: 100%;
+    height: 300px;
+}
+
+.history-content {
+    text-align: left;
+}
+
+.history-content h3, h4, p {
+    margin: 15px 0;
+}
+
 /* --------- Popular Classes Section --------- */
 
 #popular-section {
     color: #fff;
-    padding: 80px 0;
-    margin: 100px 0;
+    padding: 40px 0;
+    margin: 80px 0;
 }
 
 .popular-title {
@@ -200,40 +227,13 @@ body {
     margin-bottom: 30px;
 }
 
-/* --------- History Section --------- */
-
-.history-section {
-    display: grid;
-    grid-template-columns: 40% 40%;
-    /* Gaps between grid column; */
-    column-gap: 80px;
-    padding: 80px 0;
-    margin: 100px 40px;
-    justify-content: center;
-}
-
-.history-image {
-    background: url(/assets/images/history-gym.jpg) center center/cover no-repeat;
-    background-color: #011638;
-    width: 100%;
-    height: 300px;
-}
-
-.history-content {
-    text-align: left;
-}
-
-.history-content h3, h4, p {
-    margin: 15px 0;
-}
-
 /* --------- Instructors Section --------- */
 
 #instructors {
     background-color: #011638;
     color: #fff;
-    padding: 80px 0;
-    margin: 100px 0;
+    padding: 40px 0;
+    margin: 80px 0;
 }
 
 .instructors-title {
@@ -280,9 +280,9 @@ body {
 .classes-section {
     display: grid;
     grid-template-columns: 25% 25% 25%;
-    column-gap: 45px;
-    padding: 15px;
-    margin: 100px 0;
+    column-gap: 50px;
+    padding: 40px 15px;
+    margin: 80px 0;
     justify-content: center;
 }
 
@@ -291,7 +291,7 @@ body {
     box-shadow: 1px 2px 6px 2px #6475E5;
     color: #fff;
     border-radius: 15px;
-    margin: 40px 0;
+    margin: 50px 0;
     text-align: center;
 }
 
@@ -324,7 +324,7 @@ body {
 /* --------- Contact Page --------- */
 
 .contact {
-    margin: 100px 0;
+    margin: 80px 0;
 }
 
 .contact-section {
@@ -370,7 +370,7 @@ body {
 .map-section {
     width: 100%;
     height: 450px;
-    margin: 100px 0;
+    margin: 80px 0;
 }
 
 .map {
@@ -387,7 +387,7 @@ body {
 }
 
 .signup-image {
-    background: url(/assets/images/history-gym.jpg) center center/cover no-repeat;
+    background: url(../images/general-images/signup-image.jpg) center center/cover no-repeat;
     background-color: #011638;
     width: 100%;
 }
@@ -529,32 +529,36 @@ body {
 
 }
 
-
 #footer-section h3 {
     margin-bottom: 20px;
 }
 
-#footer-menu li {
+.footer-menu li {
     list-style-type: none;
     margin: 10px 0;
 }
 
-#footer-menu a {
+.footer-menu a {
     text-decoration: none;
     color: #fff;
 }
 
-.footer-box, .footer-social, .footer-contact, .copyright {
+.quick-links, .footer-social, .footer-contact, .copyright {
     text-align: center;
 }
 
 .footer-social li {
     display: inline-block;
     padding: 5px 15px;
+    margin-top: 15px;
 }
 
 .footer-social i {
     color: #e73939;
+}
+ 
+.footer-social i:hover {
+    color: #fff;
 }
 
 .footer-contact p {
@@ -573,62 +577,58 @@ body {
 
 /* --------- Media Queries --------- */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
 
-    .benefits-section {
-        display: grid;
-        grid-template-columns: 100%;
-        margin: 50px 0;
-    }
+    /* History Section */
 
-    .image-section {
-        background: url(/assets/images/benefits-unsplash.jpg) center center/cover no-repeat;
-        background-color: #011638;
-        width: 100%;
-        height: 300px;
-    }
-    
-    .content-section {
-        margin-top: 60px;
-        text-align: center;
+    .history-image {
+        height: 400px;
     }
 
-    #popular-section {
-        margin: 100px 0;
-    }
-    
-    .popular-title {
-        color: #e73939;
-        font-size: 25px;
-        font-weight: 700;
-        letter-spacing: 1.8px;
-        padding: 5px 10px;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-    
+    /* Popular Section */
+
     .popular-classes {
         display: grid;
-        grid-template-columns: 100%;
+        grid-template-columns: 50%;
+        padding: 0;
     }
     
     .popular-box {
-        border: 1px solid #e73939;
-        margin: 20px 5px;
-        text-align: center;
+        margin: 60px 5px;
     }
     
     .popular-box h3, .popular-box h4, .popular-box p {
-        margin: 10px 0;
+        padding-bottom: 10px;
     }
     
     .popular-box img {
         width: 100%;
+        height: 300px;
     }
-    
-    .popular-box p {
-        padding: 10px 20px;
+
+    /* Instructors Section */
+
+    .instructors-section {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        column-gap: 40px;
     }
+
+    .instructors-title {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .instructor-box {
+        margin: 60px 0;
+    }
+
+    .instructor-box img {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* --- Classes Page --- */
 
     .classes-section {
         display: grid;
@@ -643,25 +643,75 @@ body {
     
 }
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 900px) { 
+
+    /* Benefits Section */
 
     .benefits-section {
         display: grid;
-        grid-template-columns: 100%;
+        grid-template-columns: 50%;
         margin: 50px 0;
     }
 
     .image-section {
-        background: url(/assets/images/benefits-unsplash.jpg) center center/cover no-repeat;
+        background: url(../images/general-images/benefits-unsplash.jpg) center center/cover no-repeat;
         background-color: #011638;
         width: 100%;
         height: 300px;
+        order: 2;
     }
     
     .content-section {
-        margin-top: 60px;
+        margin-bottom: 50px;
         text-align: center;
+        order: 1;
     }
+
+    /* History Section */ 
+
+    .history-section {
+        display: grid;
+        grid-template-columns: 50%;
+        margin: 0;
+    }
+
+    .history-title .title {
+        padding: 15px;
+    }
+
+    .history-content {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .history-content h3, h4, p {
+        line-height: 20px;
+    }
+
+    .history-image {
+        height: 300px;
+    }
+
+    /* Popular Section */
+
+    .popular-classes {
+        display: grid;
+        grid-template-columns: 50%;
+        padding: 0;
+    }
+    
+    .popular-box {
+        margin: 60px 0;
+    }
+
+    /* Instructors Section */
+
+    .instructors-section {
+        display: grid;
+        grid-template-columns: 45%;
+    }
+
+    /* Classes Section */ 
 
     .classes-section {
         display: grid;

@@ -133,7 +133,7 @@ body {
 }
 
 .image-section {
-    background: url(../images/benefits-unsplash.jpg) center center/cover no-repeat;
+    background: url(../images/general-images/benefits-unsplash.jpg) center center/cover no-repeat;
     background-color: #011638;
     width: 100%;
     height: 350px;
@@ -213,7 +213,7 @@ body {
 }
 
 .history-image {
-    background: url(../images/history-gym.jpg) center center/cover no-repeat;
+    background: url(../images/general-images/history-gym.jpg) center center/cover no-repeat;
     background-color: #011638;
     width: 100%;
     height: 300px;
@@ -387,7 +387,7 @@ body {
 }
 
 .signup-image {
-    background: url(../images/history-gym.jpg) center center/cover no-repeat;
+    background: url(../images/general-images/signup-image.jpg) center center/cover no-repeat;
     background-color: #011638;
     width: 100%;
 }

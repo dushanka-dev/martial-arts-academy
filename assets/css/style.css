@@ -72,7 +72,7 @@ body {
 /* --------- Hero Image Section --------- */
 
 #hero-image {
-    background: url(/assets/images/general-images/boxing-hero.jpg) center center/cover no-repeat;
+    background: url(../images/general-images/boxing-hero.jpg) center center/cover no-repeat;
     background-color: #011638;
     background-blend-mode:overlay;
     min-height: 95vh;
@@ -133,7 +133,7 @@ body {
 }
 
 .image-section {
-    background: url(/assets/images/benefits-unsplash.jpg) center center/cover no-repeat;
+    background: url(../images/benefits-unsplash.jpg) center center/cover no-repeat;
     background-color: #011638;
     width: 100%;
     height: 350px;
@@ -213,7 +213,7 @@ body {
 }
 
 .history-image {
-    background: url(/assets/images/history-gym.jpg) center center/cover no-repeat;
+    background: url(../images/history-gym.jpg) center center/cover no-repeat;
     background-color: #011638;
     width: 100%;
     height: 300px;
@@ -387,7 +387,7 @@ body {
 }
 
 .signup-image {
-    background: url(/assets/images/history-gym.jpg) center center/cover no-repeat;
+    background: url(../images/history-gym.jpg) center center/cover no-repeat;
     background-color: #011638;
     width: 100%;
 }
@@ -582,7 +582,7 @@ body {
     }
 
     .image-section {
-        background: url(/assets/images/benefits-unsplash.jpg) center center/cover no-repeat;
+        background: url(../images/benefits-unsplash.jpg) center center/cover no-repeat;
         background-color: #011638;
         width: 100%;
         height: 300px;
@@ -652,7 +652,7 @@ body {
     }
 
     .image-section {
-        background: url(/assets/images/benefits-unsplash.jpg) center center/cover no-repeat;
+        background: url(../images/benefits-unsplash.jpg) center center/cover no-repeat;
         background-color: #011638;
         width: 100%;
         height: 300px;

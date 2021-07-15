@@ -534,12 +534,12 @@ body {
     margin-bottom: 20px;
 }
 
-#footer-menu li {
+.footer-menu li {
     list-style-type: none;
     margin: 10px 0;
 }
 
-#footer-menu a {
+.footer-menu a {
     text-decoration: none;
     color: #fff;
 }
@@ -551,10 +551,15 @@ body {
 .footer-social li {
     display: inline-block;
     padding: 5px 15px;
+    margin-top: 15px;
 }
 
 .footer-social i {
     color: #e73939;
+}
+ 
+.footer-social i:hover {
+    color: #fff;
 }
 
 .footer-contact p {

@@ -711,22 +711,9 @@ body {
         grid-template-columns: 45%;
     }
 
-    /* Classes Section */ 
-
-    .classes-section {
-        display: grid;
-        grid-template-columns: 100%;
-    }
-    
-    .classes-box {
-        padding-bottom: 20px;
-        margin: 20px 40px;
-        text-align: center;
-    }
-
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 650px) {
     #logo, #nav-menu {
         margin-left: 10%;
     }

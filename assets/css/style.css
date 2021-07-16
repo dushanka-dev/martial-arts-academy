@@ -725,3 +725,53 @@ body {
     }
 
 }
+
+@media screen and (max-width: 900px) {
+    #logo, #nav-menu {
+        margin-left: 10%;
+    }
+
+    #nav-menu {
+        float: left;
+    }
+
+    #hero-image {
+        width: 110%;
+    }
+    
+    #hero-text {
+        position: absolute;
+        top: 55%;
+        left: 20%;
+    }
+
+    /* Benefits Section */
+
+    .benefits-section {
+        display: grid;
+        grid-template-columns: 70%;
+    }
+
+    /* History Section */ 
+
+    .history-section {
+        display: grid;
+        grid-template-columns: 70%;
+    }
+
+     /* Popular Section */
+
+     .popular-classes {
+        display: grid;
+        grid-template-columns: 70%;
+        padding: 0;
+    }
+
+    /* Instructors Section */
+
+    .instructors-section {
+        display: grid;
+        grid-template-columns: 70%;
+    }
+    
+}

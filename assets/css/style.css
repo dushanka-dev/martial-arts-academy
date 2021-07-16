@@ -383,7 +383,7 @@ body {
 #signup-container {
     display: grid;
     grid-template-columns: 50% 50%;
-    min-height: 40vh;
+    /* min-height: 40vh; */
 }
 
 .signup-image {
@@ -662,10 +662,35 @@ body {
         position: relative;
         left: 10%;
     }
+
+    /* Sign Up */
+    
+    .signup-form {
+        width: 80%;
+    }
+    
     
 }
 
 @media screen and (max-width: 900px) { 
+
+     #logo, #nav-menu {
+        margin-left: 30%;
+    }
+
+    #nav-menu {
+        float: left;
+    }
+
+    #hero-image {
+        width: 100%;
+    }
+    
+    #hero-text {
+        position: absolute;
+        top: 55%;
+        left: 30%;
+    }
 
     /* Benefits Section */
 
@@ -761,6 +786,25 @@ body {
         left: 15%;
     }
 
+    #signup-container {
+        display: grid;
+        grid-template-columns: 70%;
+    }
+
+    .signup-image {
+        display: none;
+    }
+
+    .login-section {
+        margin: 40px 0 0 10px;
+    }
+    
+    .signup {
+        width: 100%;
+        position: relative;
+        left: 15%;
+    }
+
 }
 
 @media screen and (max-width: 650px) {
@@ -773,7 +817,7 @@ body {
     }
 
     #hero-image {
-        width: 110%;
+        width: 108%;
     }
     
     #hero-text {
@@ -828,5 +872,20 @@ body {
     .contact-form {
         position: relative;
         left: 0;
+    }
+
+    #signup-container {
+        display: grid;
+        grid-template-columns: 70%;
+        /* min-height: 40vh; */
+    }
+
+    .signup-image {
+        display: none;
+    }
+
+    .signup-form {
+        width: 100%;
+        
     }
 }

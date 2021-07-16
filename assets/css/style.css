@@ -504,12 +504,13 @@ body {
     position: relative;
     top: 0;
     left: 30%;
+    cursor: pointer;
 }
 
-.signup-btn:hover, .main-btn:hover, .nav-btn:hover {
+.signup-btn:hover, .header-btn:hover, .main-btn:hover, .nav-btn:hover, .contact-submit:hover {
     background-color: #fff;
     color: #e73939;
-    transition: .10s;
+    /* transition: .10s; */
 }
 
 /* --------- Footer --------- */

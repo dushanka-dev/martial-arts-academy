@@ -383,7 +383,7 @@ body {
 #signup-container {
     display: grid;
     grid-template-columns: 50% 50%;
-    min-height: 40vh;
+    /* min-height: 40vh; */
 }
 
 .signup-image {
@@ -504,12 +504,13 @@ body {
     position: relative;
     top: 0;
     left: 30%;
+    cursor: pointer;
 }
 
-.signup-btn:hover, .main-btn:hover, .nav-btn:hover {
+.signup-btn:hover, .header-btn:hover, .main-btn:hover, .nav-btn:hover, .contact-submit:hover {
     background-color: #fff;
     color: #e73939;
-    transition: .10s;
+    /* transition: .10s; */
 }
 
 /* --------- Footer --------- */
@@ -566,6 +567,7 @@ body {
 }
 
 .footer-contact i {
+    display: inline;
     color: #e73939;
     padding-right: 10px;
 }
@@ -636,14 +638,62 @@ body {
     }
     
     .classes-box {
-        padding-bottom: 10px;
-        margin: 10px 20px;
-        text-align: center;
+        margin: 40px 0;
+    }
+
+    /* Contact Page */
+
+    .contact-section {
+        display: grid;
+        grid-template-columns: 70%;
     }
     
+    .contact-form {
+        position: relative;
+        left: 20%;
+    }
+    
+    .contact-info {
+        position: relative;
+        left: 35%;
+        line-height: 55px;
+    }
+    
+    .map {
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+
+    /* Sign Up */
+    
+    .signup-form {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 900px) { 
+
+    #logo, #nav-menu {
+        margin-left: 10%;
+        position: relative;
+        left: 40%;
+        transform: translateX(-40%);
+    }
+
+    #nav-menu {
+        float: left;
+    }
+
+    #hero-image {
+        width: 100%;
+    }
+    
+    #hero-text {
+        position: absolute;
+        top: 55%;
+        left: 30%;
+    }
 
     /* Benefits Section */
 
@@ -711,17 +761,147 @@ body {
         grid-template-columns: 45%;
     }
 
-    /* Classes Section */ 
+    /* --- Classes Page --- */
 
     .classes-section {
+        display: grid;
+        grid-template-columns: 40% 40%;
+    }
+    
+    .classes-box {
+        margin: 40px 0;
+    }
+
+    /* Contact Page */
+
+    .contact-section {
+        display: grid;
+        grid-template-columns: 80%;
+    }
+    
+    .contact-form {
+        position: relative;
+        left: 10%;
+    }
+
+    .contact-info {
+        position: relative;
+        left: 15%;
+    }
+
+    #signup-container {
+        display: grid;
+        grid-template-columns: 70%;
+    }
+
+    .signup-image {
+        display: none;
+    }
+
+    .login-section {
+        margin: 40px 0 0 10px;
+    }
+    
+    .signup {
+        width: 100%;
+        position: relative;
+        left: 15%;
+    }
+
+    #footer-section {
+        display: grid;
+        grid-template-columns: 50%;
+    }
+
+    .quick-links, .footer-social, .footer-contact {
+        margin: 30px 0;
+    }
+
+    .footer-menu li {
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    #logo, #nav-menu {
+        margin-left: 10%;
+    }
+
+    #nav-menu {
+        float: left;
+    }
+
+    #hero-image {
+        width: 108%;
+    }
+    
+    #hero-text {
+        position: absolute;
+        top: 55%;
+        left: 20%;
+    }
+
+    /* Benefits Section */
+
+    .benefits-section {
+        display: grid;
+        grid-template-columns: 70%;
+    }
+
+    /* History Section */ 
+
+    .history-section {
+        display: grid;
+        grid-template-columns: 70%;
+    }
+
+     /* Popular Section */
+
+     .popular-classes {
+        display: grid;
+        grid-template-columns: 70%;
+        padding: 0;
+    }
+
+    /* Instructors Section */
+
+    .instructors-section {
+        display: grid;
+        grid-template-columns: 70%;
+    }
+
+    /* --- Classes Page --- */
+
+    .classes-section {
+        display: grid;
+        grid-template-columns: 60%;
+    }
+
+    /* Contact Page */
+
+    .contact-section {
         display: grid;
         grid-template-columns: 100%;
     }
     
-    .classes-box {
-        padding-bottom: 20px;
-        margin: 20px 40px;
-        text-align: center;
+    .contact-form {
+        position: relative;
+        left: 0;
     }
 
+    #signup-container {
+        display: grid;
+        grid-template-columns: 70%;
+        /* min-height: 40vh; */
+    }
+
+    .signup-image {
+        display: none;
+    }
+
+    .signup-form {
+        width: 100%;
+        
+    }
 }

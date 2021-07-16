@@ -566,6 +566,7 @@ body {
 }
 
 .footer-contact i {
+    display: inline;
     color: #e73939;
     padding-right: 10px;
 }
@@ -668,14 +669,15 @@ body {
     .signup-form {
         width: 80%;
     }
-    
-    
 }
 
 @media screen and (max-width: 900px) { 
 
-     #logo, #nav-menu {
-        margin-left: 30%;
+    #logo, #nav-menu {
+        margin-left: 10%;
+        position: relative;
+        left: 40%;
+        transform: translateX(-40%);
     }
 
     #nav-menu {
@@ -803,6 +805,19 @@ body {
         width: 100%;
         position: relative;
         left: 15%;
+    }
+
+    #footer-section {
+        display: grid;
+        grid-template-columns: 50%;
+    }
+
+    .quick-links, .footer-social, .footer-contact {
+        margin: 30px 0;
+    }
+
+    .footer-menu li {
+        line-height: 30px;
     }
 
 }

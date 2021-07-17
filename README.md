@@ -53,24 +53,49 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
 
 # Testing
 
-General testing will be added here.
-
 * Validator Testing
 
     * HTML
     * CSS
 
+* Responsive Testing
+
+    Used Google devtools to resize the site to different breakpoints to test the responsiveness.
+
+    * Breakpoints used: 1200px, 900px and 600px
+
 # Depolyment
 
-Deployment method will be added here.
+Deployment was completed using GitHub pages. The method used are as followed:
+
+* Go to Martial Arts Academy Github repo.
+* Go to settings page.
+* Scroll to Pages section and click.
+* Under source select Main. 
+* Click Save. 
 
 # Credits
 
-Credits will be added here.
+* Fonts
 
-# Content
+    * All fonts was downloaded from Google Fonts using import links.
 
-# Media
+* Media
+    
+    * Hero images was taken from Pexels Royalty free image website.
+    * Images for Home and Classes page was taken from Pixabay Royalty Free Image website.
+
+* General
+
+    * W3Schools
+    * Stackoverflow
+    * Google
+
+* Wireframes
+
+    * Wireframes was created using Balsamiq software.
+
+
 
 
 

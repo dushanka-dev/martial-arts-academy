@@ -6,8 +6,6 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
 
 * Navigation Bar
 
-![Nav-header](assets/images/screenshots/navigation-header.png)
-
     * The Navigation Bar is on all of the sites pages. 
     * It is fully responsive on all devices.
     * Link include Home, About us, Classes, Contact and Sign Up pages.
@@ -15,22 +13,26 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
     * This section allows our customers to easily navigate through the website.
     * Users can go to any page with ease of use as the Navigation bar is available on all pages.
 
-    Landing Page Image
+![Nav-header](assets/images/screenshots/Navigation-bar.png)
+
+* Landing Page Image
 
     * The image is fully responsive. 
     * Highlights what the website is about.
     * Has text overlay with call to action button.
 
+    ![Nav-header](assets/images/screenshots/hero-image.png)
+
 
 * Benefits Section
-
-![Nav-header](assets/images/screenshots/benefits-section.png)
 
     * This section is aimed at motivation people to take up Martial Arts.
     * It showcases brief benefits of what users can gain if they start Martial Arts.
     * Call to Action button to encourage users to Sign Up.
     * Image is there to motivate users and encourage them to take action.
     * The image is showing an indvidual exercising to show users what they can be gaining by joining the Academy.
+
+    ![Nav-header](assets/images/screenshots/benefits-section.png)
 
 * Popular Classes
 
@@ -40,31 +42,24 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
     * Each class box has Instructors names so users can see what instructors in the Academy.
     * More information button directs users to Classes page where they can see full list of available classes.
 
-* Testimonial Section
+    ![Nav-header](assets/images/screenshots/popular-classes.png)
 
-    * To show users existing customers reviews of MA Academy.
-    * Encourage new users to Sign Up by showing them how happy existing customers are with the Academy.
-    * Give users unbiased opinions of the Academy so they can make their mind up about joining.
+* Instructors
+
+    * Show users MA Academy's Instructors.
+    * Images of the Instructors and brief information area.
+    * Show which classes they do.
+    * More information link to classes page so users can see the instructors availability.
+
+    ![Nav-header](assets/images/screenshots/popular-classes.png)
 
 * Footer 
 
     * Show users all the links to all pages available on the site.
     * Links to Social media accounts from MA Academy.
-    * Logo with link to homepage so users can easily come back to sites home page.
-    * Brief contact information of the Academy.
+    * Contact information of the Academy so users can contact the gym easily.
 
-# Testing
-
-* Validator Testing
-
-    * HTML
-    * CSS
-
-* Responsive Testing
-
-    Used Google devtools to resize the site to different breakpoints to test the responsiveness.
-
-    * Breakpoints used: 1200px, 900px and 600px
+    ![Nav-header](assets/images/screenshots/popular-classes.png)
 
 # Depolyment
 
@@ -74,9 +69,7 @@ Deployment was completed using GitHub pages. The method used are as followed:
 * Go to settings page.
 * Scroll to Pages section and click.
 * Under source select Main. 
-* Click Save. 
-
-# Credits
+* Click Save.
 
 * Fonts
 
@@ -103,15 +96,55 @@ Deployment was completed using GitHub pages. The method used are as followed:
 
     * Errors and Fixes
 
-        Index.html
+        Home Page
     
         * Validator Error Message: "The element a must not appear as a descendant of the button element." on line 28. Fixed error by removing button tag and adding custom css to a tag to create button.
 
         * Validator Error Message: Element hr not allowed as child of element h2 in this context. Fixed error by removing hr. Add span and display block to get the same result.
 
-        Classes.html
+        Classes Page
 
-        *
+        * No errors found
+
+        Contact Page
+
+        * Validator Error Message: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. Fixed: Error was fixed by adding title to section Map. 
+
+        Sign Up Page
+        * No errors found
+
+* W3C CSS Jogsaw Validator 
+    
+    * Errors and Fixes
+
+        Stylesheet (CSS)
+        * No errors found
+
+* Responsive Testing
+
+    Used Google devtools to resize the site to different breakpoints to test the responsiveness.
+
+    * Breakpoints used: 1200px, 900px and 600px
+
+# Credits
+
+* Fonts
+
+    * All fonts was downloaded from Google Fonts using import links.
+
+* Media
+    
+    * Hero images was taken from Pexels Royalty free image website.
+    * Images for Home and Classes page was taken from Pixabay Royalty Free Image website.
+
+* General
+
+    * W3Schools
+    * Stackoverflow
+    * Google
+
+
+        
 
 
 

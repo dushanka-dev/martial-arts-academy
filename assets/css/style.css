@@ -236,7 +236,17 @@ h1, h2, h3, h4, h6 {
     width: 100%;
 }
 
+.popular-box h3 {
+    font-size: 22px;
+}
+
+.popular-box h4 {
+    background-color: #e73939;
+    font-size: 20px;
+    padding: 5px 0;
+}
 .popular-box p {
+    font-size: 18px;
     padding: 10px 20px;
     margin-bottom: 30px;
 }

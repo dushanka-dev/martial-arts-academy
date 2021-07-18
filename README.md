@@ -128,9 +128,10 @@ Deployment was completed using GitHub pages. The method used are as followed:
 
 # Credits
 
-* Fonts
+* Content
 
     * All fonts was downloaded from Google Fonts using import links.
+    * All content created by Dushanka Perera
 
 * Media
     

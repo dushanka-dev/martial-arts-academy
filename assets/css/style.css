@@ -453,12 +453,11 @@ h1, h2, h3, h4, h6 {
 .nav-btn {
     background-color: #e73939;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     text-decoration: none;
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
-
 }
 
 .header-btn {

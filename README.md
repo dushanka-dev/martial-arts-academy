@@ -6,6 +6,8 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
 
 * Navigation Bar
 
+![Nav-header](assets/images/screenshots/navigation-header.png)
+
     * The Navigation Bar is on all of the sites pages. 
     * It is fully responsive on all devices.
     * Link include Home, About us, Classes, Contact and Sign Up pages.
@@ -13,20 +15,20 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
     * This section allows our customers to easily navigate through the website.
     * Users can go to any page with ease of use as the Navigation bar is available on all pages.
 
-* Landing Page Image
+    Landing Page Image
 
     * The image is fully responsive. 
     * Highlights what the website is about.
     * Has text overlay with call to action button.
 
+
 * Benefits Section
+
+![Nav-header](assets/images/screenshots/benefits-section.png)
 
     * This section is aimed at motivation people to take up Martial Arts.
     * It showcases brief benefits of what users can gain if they start Martial Arts.
     * Call to Action button to encourage users to Sign Up.
-
-* Benefits Section Image
-
     * Image is there to motivate users and encourage them to take action.
     * The image is showing an indvidual exercising to show users what they can be gaining by joining the Academy.
 

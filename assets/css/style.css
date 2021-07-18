@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     background-color: #011638;
     color: #fff;
@@ -191,6 +191,11 @@ h1, h2, h3, h4, h6 {
 
 .history-content h3, h4, p {
     margin: 15px 0;
+}
+
+.history-content p {
+    letter-spacing: 1px;
+    line-height: 25px;
 }
 
 /* --------- Popular Classes Section --------- */
@@ -430,28 +435,6 @@ h1, h2, h3, h4, h6 {
 
 }
 
-.signup-form input[type=submit] {
-    background-color: #011638;
-    color: #fff;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px;
-    letter-spacing: 1.2px;
-    display: block;
-}
-
-.signup-form input[type=submit]:hover {
-    background-color: #fff;
-    color: #011638;
-    border: 1px solid #011638;
-    margin: 0 auto;
-    border-radius: 5px;
-    padding: 10px;
-    letter-spacing: 1.2px;
-    display: block;
-}
-
 /* --------- Buttons --------- */
 
 .nav-btn {
@@ -495,6 +478,7 @@ h1, h2, h3, h4, h6 {
     position: relative;
     top: 0;
     left: 30%;
+    cursor: pointer;
 }
 
 .contact-submit {

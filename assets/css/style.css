@@ -340,9 +340,16 @@ h1, h2, h3, h4, h6 {
 }
 
 .classes-box h4 {
+    background-color: #011638;
+    padding: 5px 0;
+    font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.2px;
+}
+
+.classes-box h6 {
+    font-size: 18px;
 }
 
 /* --------- Contact Page --------- */
@@ -423,6 +430,16 @@ h1, h2, h3, h4, h6 {
 
 .login-section {
     margin-top: 20px;
+}
+
+.login-content a {
+    color: #6474e5;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.login-content a:hover {
+    color: #e73939
 }
 
 .signup-form {

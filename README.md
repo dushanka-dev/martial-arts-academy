@@ -97,6 +97,12 @@ Deployment was completed using GitHub pages. The method used are as followed:
 
     * Wireframes was created using Balsamiq software.
 
+# Testing
+
+* W3C Validator
+    
+    * Validator showed error "The element a must not appear as a descendant of the button element." on line 28. Fixed error by removing button tag and adding custom css to a tag to create button.
+
 
 
 

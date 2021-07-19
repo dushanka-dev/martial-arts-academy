@@ -71,9 +71,9 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
 
 * Contact Page Map
 
-    * Users can easily see map view of the gym location.
-    * Users can visit the gym more easily with the map view.
-    * Link takes users directly Google in new window.
+    * In this section users can easily see map view of the gym location.
+    * Users can visit the gym more easily with the map view as they have visual look of the gym location.
+    * Link takes users directly Google Maps in new window.
 
     <br>
 
@@ -81,10 +81,8 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
 
 * Sign Up Section
 
-    * Users can easily sign up to the gym.
-    * Users
-    * Show which classes they do.
-    * More information link to classes page so users can see the instructors availability.
+    * This section users can easily sign up to the gym.
+    * Log In button for existing users.
 
     <br>
 
@@ -92,27 +90,29 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
 
 * Footer 
 
-    * Show users all the links to all pages available on the site.
-    * Links to Social media accounts from MA Academy.
-    * Contact information of the Academy so users can contact the gym easily.
+    * In this section users can navigate to all the pages available on the site.
+    * Users can visit MA Academy to Social media accounts from the Social Icons.
+    * There is also contact information of the Academy so users can contact the gym easily.
 
     <br>
 
     ![Nav-header](readme-files/screenshots/footer-section.png)
 
+# Wireframes
+
+* Desktop
+* Tablet
+* Mobile
+
 # Depolyment
 
-Deployment was completed using GitHub pages. The method used are as followed:
+The website was deployed from GIThub pages. The steps to deploy the site:
 
-* Go to Martial Arts Academy Github repo.
+* Visit [Martial Arts Academy GitHub repo](https://github.com/dushanka-dev/martial-arts-academy)
 * Go to settings page.
-* Scroll to Pages section and click.
+* Scroll to Pages section and click Pages.
 * Under source select Main. 
 * Click Save.
-
-* Wireframes
-
-    * Wireframes was created using Balsamiq software.
 
 # Testing
 
@@ -164,6 +164,7 @@ Deployment was completed using GitHub pages. The method used are as followed:
     * [W3Schools](https://www.w3schools.com/)
     * [Stack Overflow](https://stackoverflow.com/)
     * [Google](https://www.google.com/)
+    * [Balsamiq](https://balsamiq.com/) (Wireframes)
 
 
         

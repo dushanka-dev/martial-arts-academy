@@ -86,27 +86,34 @@ h1, h2, h3, h4, h6 {
 }
 
 #hero-text {
+    display: block;
     background-color: #011638;
     color: #fff;
     box-shadow: 2px 4px 10px 4px #e73939;
-    /* width: 70%; */
     position: absolute;
     top: 55%;
     left: 30%;
-    opacity: .8;
+    opacity: .7;
     padding: 40px;
     border-radius: 5px;
-    display: block;
+}
+
+#hero-text h2, #hero-text h3 {
+    margin-bottom: 25px;
+    letter-spacing: 1.2px;
+}
+
+#hero-text h2 {
+    color: #e73939;
+    font-size: 30px;
 }
 
 #hero-text span {
     display: block;
 }
 
-#hero-text h2 {
-    font-size: 30px;
-    margin-bottom: 25px;
-    letter-spacing: 1.2px;
+#hero-text h3 {
+    font-size: 25px;
 }
 
 /* --------- Sub Page Header --------- */
@@ -701,8 +708,8 @@ h1, h2, h3, h4, h6 {
     
     #hero-text {
         position: absolute;
-        top: 55%;
-        left: 30%;
+        top: 50%;
+        left: 18%;
     }
 
     #subheader-text {
@@ -839,8 +846,9 @@ h1, h2, h3, h4, h6 {
     
     #hero-text {
         position: absolute;
-        top: 55%;
-        left: 20%;
+        top: 45%;
+        left: 35%;
+        right: 10%;
     }
 
     .benefits-section {

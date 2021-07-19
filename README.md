@@ -71,47 +71,27 @@ Deployment was completed using GitHub pages. The method used are as followed:
 * Under source select Main. 
 * Click Save.
 
-* Fonts
-
-    * All fonts was downloaded from Google Fonts using import links.
-
-* Media
-    
-    * Hero images was taken from Pexels Royalty free image website.
-    * Images for Home and Classes page was taken from Pixabay Royalty Free Image website.
-
-* General
-
-    * W3Schools
-    * Stackoverflow
-    * Google
-
 * Wireframes
 
     * Wireframes was created using Balsamiq software.
 
 # Testing
 
-* W3C Validator
+* W3C Validator - [Results](https://fonts.google.com/)
 
     * Errors and Fixes
-
-        Home Page
     
-        * Validator Error Message: "The element a must not appear as a descendant of the button element." on line 28. Fixed error by removing button tag and adding custom css to a tag to create button.
+        * Validator Error Message: "The element a must not appear as a descendant of the button element." on line 28. <br>
+        Fixed error by removing button tag and adding custom css to a tag to create button.
 
-        * Validator Error Message: Element hr not allowed as child of element h2 in this context. Fixed error by removing hr. Add span and display block to get the same result.
+        * Validator Error Message: Element hr not allowed as child of element h2 in this context. <br> 
+        Fixed error by removing hr. Add span and display block to get the same result.
 
-        Classes Page
-
-        * No errors found
+        * Validator Error Message: Named character reference was not terminated by a semicolon.
 
         Contact Page
 
         * Validator Error Message: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. Fixed: Error was fixed by adding title to section Map. 
-
-        Sign Up Page
-        * No errors found
 
 * W3C CSS Jogsaw Validator 
     
@@ -130,19 +110,19 @@ Deployment was completed using GitHub pages. The method used are as followed:
 
 * Content
 
-    * All fonts was downloaded from Google Fonts using import links.
+    * All fonts was downloaded from [Google Fonts](https://fonts.google.com/)
     * All content created by Dushanka Perera
 
 * Media
     
-    * Hero images was taken from Pexels Royalty free image website.
-    * Images for Home and Classes page was taken from Pixabay Royalty Free Image website.
+    * Hero images was taken from [Pexels](https://www.pexels.com/)
+    * Images for Home and Classes page was taken from [Pixabay](https://pixabay.com/)
 
 * General
 
-    * W3Schools
-    * Stackoverflow
-    * Google
+    * [W3Schools](https://www.w3schools.com/)
+    * [Stack Overflow](https://stackoverflow.com/)
+    * [Google](https://www.google.com/)
 
 
         

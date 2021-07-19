@@ -708,8 +708,8 @@ h1, h2, h3, h4, h6 {
     
     #hero-text {
         position: absolute;
-        top: 55%;
-        left: 30%;
+        top: 50%;
+        left: 18%;
     }
 
     #subheader-text {
@@ -846,8 +846,9 @@ h1, h2, h3, h4, h6 {
     
     #hero-text {
         position: absolute;
-        top: 55%;
-        left: 20%;
+        top: 45%;
+        left: 35%;
+        right: 10%;
     }
 
     .benefits-section {

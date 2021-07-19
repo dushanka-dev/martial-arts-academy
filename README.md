@@ -13,15 +13,15 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
     * This section allows our customers to easily navigate through the website.
     * Users can go to any page with ease of use as the Navigation bar is available on all pages.
 
-![Nav-header](assets/images/screenshots/Navigation-bar.png)
+![Nav-header](readme-files/screenshots/Navigation-bar.png)
 
-* Landing Page Image
+* Home Hero Image
 
     * The image is fully responsive. 
     * Highlights what the website is about.
     * Has text overlay with call to action button.
 
-    ![Nav-header](assets/images/screenshots/hero-image.png)
+    ![Nav-header](readme-files/screenshots/hero-image.png)
 
 
 * Benefits Section
@@ -32,17 +32,17 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
     * Image is there to motivate users and encourage them to take action.
     * The image is showing an indvidual exercising to show users what they can be gaining by joining the Academy.
 
-    ![Nav-header](assets/images/screenshots/benefits-section.png)
+    ![Nav-header](readme-files/screenshots/benefits-section.png)
 
-* Popular Classes
+* Classes
 
-    * This section shows users MA Academy's most popular classes.
-    * It is aimed at getting users to see what the existing members of the Academy like.
+    * This section shows users MA Academy's classes.
+    * It is aimed at getting users to see what classes are available.
     * Call to Action buttons are there to entice users to sign up or contact the Academy for more information.
     * Each class box has Instructors names so users can see what instructors in the Academy.
     * More information button directs users to Classes page where they can see full list of available classes.
 
-    ![Nav-header](assets/images/screenshots/popular-classes.png)
+    ![Nav-header](readme-files/screenshots/classes-sections.png)
 
 * Instructors
 
@@ -51,7 +51,7 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
     * Show which classes they do.
     * More information link to classes page so users can see the instructors availability.
 
-    ![Nav-header](assets/images/screenshots/popular-classes.png)
+    ![Nav-header](readme-files/screenshots/instructor-section.png)
 
 * Footer 
 
@@ -59,7 +59,7 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
     * Links to Social media accounts from MA Academy.
     * Contact information of the Academy so users can contact the gym easily.
 
-    ![Nav-header](assets/images/screenshots/popular-classes.png)
+    ![Nav-header](readme-files/screenshots/footer-section.png)
 
 # Depolyment
 

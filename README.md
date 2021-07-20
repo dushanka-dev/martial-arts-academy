@@ -1,6 +1,6 @@
 # Martial Arts Academy
 
-Martial Arts Academy is a site for experienced and new martial arts practitioners. Main purpose of the site is to enable users to view the latest classes available, check times of classes and sign up. It list all classes and time so users can easily find classes to fit around their schedule.
+Martial Arts Academy is a site for experienced and new martial arts practitioners. Main purpose of the site is to enable users to view the latest classes available, check times of classes and sign up. It lists all classes and times so users can easily find classes to fit around their schedule.
 
 ![Website on All Devices](readme-files/screenshots/website-devices.png)
 
@@ -31,7 +31,7 @@ Martial Arts Academy is a site for experienced and new martial arts practitioner
 
 * Benefits Section
 
-    * This section is aimed at motivating users to take up Martial Arts by undertstanding the benefits.
+    * This section is aimed at motivating users to take up Martial Arts by understanding the benefits.
     * It outlines sone of the benefits of what users can gain if they start Martial Arts.
     * Image is there to motivate users and encourage them to take action.
 
@@ -42,13 +42,14 @@ Martial Arts Academy is a site for experienced and new martial arts practitioner
 * Popular classes and Classes
 
     * This section shows users MA Academy's classes.
+    * Popular classes section shows users the most popular classes.
     * It is aimed at getting users to see what classes are available so they can join at time suitable to them.
     * Users can see the times of the classes.
     * Users can see who the instructor is in each class.
 
     <br>
 
-    ![Nav-header](readme-files/screenshots/classes-sections.png)
+    ![Popular classes and Classes](readme-files/screenshots/classes-sections.png)
 
 * Instructors
 
@@ -58,7 +59,7 @@ Martial Arts Academy is a site for experienced and new martial arts practitioner
 
     <br>
 
-    ![Nav-header](readme-files/screenshots/instructor-section.png)
+    ![Instructors](readme-files/screenshots/instructor-section.png)
 
 * Contact Form section
 
@@ -68,7 +69,7 @@ Martial Arts Academy is a site for experienced and new martial arts practitioner
 
     <br>
 
-    ![Nav-header](readme-files/screenshots/contact-section.png)
+    ![Contact Form section](readme-files/screenshots/contact-section.png)
 
 * Contact Page Map
 
@@ -78,7 +79,7 @@ Martial Arts Academy is a site for experienced and new martial arts practitioner
 
     <br>
 
-    ![Nav-header](readme-files/screenshots/maps-section.png)
+    ![Contact Page Map](readme-files/screenshots/maps-section.png)
 
 * Sign Up Section
 
@@ -87,12 +88,12 @@ Martial Arts Academy is a site for experienced and new martial arts practitioner
 
     <br>
 
-    ![Nav-header](readme-files/screenshots/signup-section.png)
+    ![Sign Up Section](readme-files/screenshots/signup-section.png)
 
 * Footer 
 
     * In this section users can navigate to all the pages available on the site.
-    * Users can visit MA Academy to Social media accounts from the Social Icons.
+    * Users can visit MA Academy Social media accounts from the Social Icons.
     * There is also contact information of the Academy so users can contact the gym easily.
 
     <br>
@@ -112,7 +113,7 @@ Martial Arts Academy is a site for experienced and new martial arts practitioner
 
 # Depolyment
 
-The website was deployed from GIThub pages. The steps to deploy the site:
+The website was deployed in GitHub pages. The steps to deploy the site:
 
 * Visit [Martial Arts Academy GitHub repo](https://github.com/dushanka-dev/martial-arts-academy)
 * Go to settings page.
@@ -130,13 +131,15 @@ The website was deployed from GIThub pages. The steps to deploy the site:
         Fixed error by removing button tag and adding custom css to a tag to create button.
 
         * Validator Error Message: Element hr not allowed as child of element h2 in this context. <br> 
-        Fixed error by removing hr. Add span and display block to get the same result.
+        Fixed error by removing hr. Added span and display block to get the same result.
 
         * Validator Error Message: Named character reference was not terminated by a semicolon.
+        Fixed error by adding semicolon in copyright section.
 
         Contact Page
 
-        * Validator Error Message: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. Fixed: Error was fixed by adding title to section Map.
+        * Validator Error Message: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. 
+        Fixed: Error was fixed by adding title to Map section.
 
         <br>
 
@@ -163,7 +166,7 @@ The website was deployed from GIThub pages. The steps to deploy the site:
 
 * General Testing
 
-    * Checked the site buttons to ensure they work properly and point otcorrect pages.
+    * Checked the site buttons to ensure they work properly and point to correct pages.
 
     * Checked all links on website to ensure they work properly.
 

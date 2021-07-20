@@ -99,11 +99,16 @@ Martial Arts Academy is a site for experienced and new martial arts practitioner
 
     ![Footer Section](readme-files/screenshots/footer-section.png)
 
+# Features Left to Implement
+
+* Add videos to the website of Martial Arts classes.
+* Testimonial section.
+
 # Wireframes
 
-* Desktop
-* Tablet
-* Mobile
+* [Desktop](https://github.com/dushanka-dev/martial-arts-academy/tree/main/readme-files/wireframes/desktop)
+* [Tablet](https://github.com/dushanka-dev/martial-arts-academy/tree/main/readme-files/wireframes/tablet)
+* [Mobile](https://github.com/dushanka-dev/martial-arts-academy/tree/main/readme-files/wireframes/mobile)
 
 # Depolyment
 
@@ -135,18 +140,32 @@ The website was deployed from GIThub pages. The steps to deploy the site:
 
         <br>
 
-* W3C CSS Jigsaw Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdushanka-dev.github.io%2Fmartial-arts-academy%2F)
+        ### All Errors Fixed
+
+        <br>
+
+* W3C CSS Jigsaw Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdushanka-dev.github.io%2Fmartial-arts-academy%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
     
     * Errors and Fixes
 
         Stylesheet (CSS)
         * No errors found
 
+        <br>
+
 * Responsive Testing
 
     Used [Google DevTools](https://developer.chrome.com/docs/devtools/) to resize the site to different breakpoints to test the responsiveness.
 
     * Breakpoints used: 1200px, 900px and 600px
+
+    <br>
+
+* General Testing
+
+    * Checked the site buttons to ensure they work properly and point otcorrect pages.
+
+    * Checked all links on website to ensure they work properly.
 
 # Credits
 
@@ -160,12 +179,16 @@ The website was deployed from GIThub pages. The steps to deploy the site:
     * Hero images was taken from [Pexels](https://www.pexels.com/)
     * Images for Home and Classes page was taken from [Pixabay](https://pixabay.com/)
 
+    <br>
+
 * General
 
     * [W3Schools](https://www.w3schools.com/)
     * [Stack Overflow](https://stackoverflow.com/)
     * [Google](https://www.google.com/)
-    * [Balsamiq](https://balsamiq.com/) (Wireframes)
+    * [Balsamiq](https://balsamiq.com/)
+    * [Techsini](https://techsini.com/)
+    * [Spell Checker](https://www.internetmarketingninjas.com/online-spell-checker.php)
 
 
         

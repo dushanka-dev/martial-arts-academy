@@ -1,15 +1,17 @@
 # Martial Arts Academy
 
-Martial Arts Academy is a site for experienced or new martial arts practitioners. Main purpose of the site is to enable people to view the latest classes availble, check times of classes and join.
+Martial Arts Academy is a site for experienced and new martial arts practitioners. Main purpose of the site is to enable users to view the latest classes available, check times of classes and sign up. It list all classes and time so users can easily find classes to fit around their schedule.
+
+![Website on All Devices](readme-files/screenshots/website-devices.png)
 
 # Features
 
 * Navigation Bar
 
     * The Navigation Bar allow users to navigate the site easily. 
-    * Navigation Bar fully responsive on all devices.
-    * Links include Home, About us, Classes, Contact and Sign Up pages.
-    * Logo is linked to home page.
+    * Navigation Bar is fully responsive on all devices.
+    * Links include Home, Classes, Contact and Sign Up pages.
+    * Logo is linked to the home page so users can return to home page in one click.
 
 ![Nav-header](readme-files/screenshots/Navigation-bar.png)
 
@@ -20,30 +22,29 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
     * The image is fully responsive. 
     * Highlights what the website is about.
     * Has text overlay with call to action button.
-    * Sub Header text allows user to understand what the website is about.
+    * Sub Header text allows user to understand what the website is about and see discount available.
     
     <br>
 
-    ![Nav-header](readme-files/screenshots/hero-image.png)
+    ![Hero Image and Text](readme-files/screenshots/hero-image.png)
 
 
 * Benefits Section
 
-    * This section is aimed at motivating users to take up Martial Arts.
+    * This section is aimed at motivating users to take up Martial Arts by undertstanding the benefits.
     * It outlines sone of the benefits of what users can gain if they start Martial Arts.
     * Image is there to motivate users and encourage them to take action.
 
     <br>
 
-    ![Nav-header](readme-files/screenshots/benefits-section.png)
+    ![Benefits Section](readme-files/screenshots/benefits-section.png)
 
-* Classes
+* Popular classes and Classes
 
     * This section shows users MA Academy's classes.
-    * It is aimed at getting users to see what classes are available.
+    * It is aimed at getting users to see what classes are available so they can join at time suitable to them.
     * Users can see the times of the classes.
     * Users can see who the instructor is in each class.
-    * More information button directs users to Classes page where they can see full list of available classes.
 
     <br>
 
@@ -62,7 +63,7 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
 * Contact Form section
 
     * Users can easily fill out the contact form and contact the gym.
-    * User can see direct contact details of the gym on the hand side of the page.
+    * User can see direct contact details of the gym on the right hand side of the page.
     * Address is shown so users can visit the gym.
 
     <br>
@@ -73,7 +74,7 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
 
     * In this section users can easily see map view of the gym location.
     * Users can visit the gym more easily with the map view as they have visual look of the gym location.
-    * Link takes users directly Google Maps in new window.
+    * Link takes users directly to Google Maps in new window.
 
     <br>
 
@@ -96,7 +97,7 @@ Martial Arts Academy is a site for experienced or new martial arts practitioners
 
     <br>
 
-    ![Nav-header](readme-files/screenshots/footer-section.png)
+    ![Footer Section](readme-files/screenshots/footer-section.png)
 
 # Wireframes
 
